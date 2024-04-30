@@ -11,7 +11,7 @@
             <div class="flex justify-center items-center cursor-pointer">
                 <NigthSwitch />
             </div>
-            <el-input size="large" @input="fetchWeather" :clearable="true" placeholder="Выбрать город"
+            <el-input size="large" @keyup.enter.native="fetchWeather" @change="fetchWeather" :clearable="true" placeholder="Выбрать город"
                 v-model="country_name"></el-input>
         </div>
     </div>
