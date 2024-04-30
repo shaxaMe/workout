@@ -62,7 +62,7 @@ import { mapState } from "vuex"
 export default {
     data() {
         return {
-            url_base: "http://api.weatherapi.com/v1/",
+            url_base: "https://api.weatherapi.com/v1/",
             query: 'Tashkent',
             weather: {},
             coords: {},
