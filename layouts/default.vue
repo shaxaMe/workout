@@ -3,6 +3,7 @@
         <Transition>
             <Loading v-if="loading" />
             <div class="container" v-else>
+                <AppNavbar />
                 <Nuxt />
             </div>
         </Transition>
@@ -10,6 +11,8 @@
 </template>
 
 <script>
+import AppNavbar from '../components/AppNavbar.vue';
+
 export default {
     data() {
         return {
