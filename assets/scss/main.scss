@@ -19,8 +19,12 @@
     --box-shadow-items:rgba(71, 147, 255, 0.2);
 
 }
-@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 
+
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../Montserrat/Montserrat-VariableFont_wght.ttf');
+}
 *{
     margin: 0;
     padding: 0;
