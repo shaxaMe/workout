@@ -30,7 +30,7 @@ export default {
         {
           hid: 'og-image',
           property: 'og:image',
-          content: require('@/assets/icons/HeadLogo.svg')
+          content: require('@/assets/icons/Headlogo.png')
         },
       ],
       link: [
