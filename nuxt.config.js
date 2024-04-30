@@ -1,26 +1,7 @@
 
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
-  head: {
-    title: 'weather',
-    htmlAttrs: {
-      lang: 'en'
-    },
-    meta: [
-      { charset: 'utf-8' },
-      { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: '' },
-      { name: 'format-detection', content: 'telephone=no' },
-      {
-        hid: 'og-description',
-        property: 'og:description',
-        content: `weatherapp,downloads and launches AWeather,sets an alarm of weather events,gets notification,Snow / Rainy,Thunderstorm`
-      }
-    ],
-    link: [
-      { rel: 'icon', type: 'image/x-icon', href: '/HeadLogo.svg' }
-    ]
-  },
+ 
   svg: {
     vueSvgLoader: {
       // vue-svg-loader options
