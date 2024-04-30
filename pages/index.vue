@@ -1,11 +1,14 @@
 <template>
   <!-- <Tutorial/> -->
   <div class="index-page w-full h-full">
-     <nuxtIcon name="theme" />
+     <CurrentBar />
+     <Weeknes/>
   </div>
 </template>
 
 <script>
+import Weeknes from '../components/Weeknes.vue';
+
 export default {
   name: 'IndexPage'
 }
